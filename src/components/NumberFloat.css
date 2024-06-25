@@ -1,0 +1,18 @@
+.number {
+    /* Your default styles */
+    visibility: hidden; /* Hide numbers by default */
+}
+
+.number.float {
+    visibility: visible; /* Show numbers when the float class is added */
+    animation: floatAnimation 1s forwards;
+}
+
+@keyframes floatAnimation {
+    from {
+        transform: translateY(0);
+    }
+    to {
+        transform: translateY(-40px); /* Adjust as needed */
+    }
+}

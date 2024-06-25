@@ -1,0 +1,1 @@
+![Description of the GIF](./resources/Kapture%202024-06-25%20at%2021.27.35.gif)
